@@ -1,4 +1,4 @@
-const main = require('./atividade2');
+const main = require('../atividade2');
 
 test('Calcular a área de um círculo: 1, expected: Math.PI', () => {
   expect(main(1)).toBeCloseTo(Math.PI);
