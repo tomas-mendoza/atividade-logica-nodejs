@@ -8,6 +8,6 @@ test('Verificar se um número é primo: 6, expected: false', () => {
   expect(main(6)).toBe(false);
 });
 
-test('Verificar se um número é primo: 204, expected: true', () => {
-  expect(main(204)).toBe(true);
+test('Verificar se um número é primo: 204, expected: false', () => {
+  expect(main(204)).toBe(false);
 });
