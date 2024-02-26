@@ -1,8 +1,13 @@
 {
-  "name": "logica-nodejs",
+  "name": "atividade-logica-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercícios realizados em aula para entender melhor o NodeJS",
+  "main": "atividade1.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
+    "test": "jest --testPathPattern=/test/",
     "atividade1": "jest ./test/atividade1.test.js",
     "atividade2": "jest ./test/atividade2.test.js",
     "atividade3": "jest ./test/atividade3.test.js",
@@ -44,9 +49,17 @@
     "atividade39": "jest ./test/atividade39.test.js",
     "atividade40": "jest ./test/atividade40.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas-mendoza/atividade-logica-nodejs.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomas-mendoza/atividade-logica-nodejs/issues"
+  },
+  "homepage": "https://github.com/tomas-mendoza/atividade-logica-nodejs#readme",
   "dependencies": {
     "jest": "^29.7.0"
   }
