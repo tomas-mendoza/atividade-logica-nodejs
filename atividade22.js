@@ -7,7 +7,7 @@ function main(number) {
     }
   }
 
-  return savedNumbers.reduce((number, ac) => ac += number) === number;
+  return savedNumbers.reduce((ac, number) => ac += number) === number;
 }
 
 module.exports = main;

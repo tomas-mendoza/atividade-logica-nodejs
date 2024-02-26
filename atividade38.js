@@ -1,5 +1,5 @@
 function main(numbers) {
-  return numbers.toString().split('').map((number) => parseInt(number)).reduce((ac = 0, number) => ac += parseInt(number));
+  return numbers.toString().split('').map((number) => parseInt(number)).reduce((number, ac = 0) => ac += parseInt(number));
 }
 
 module.exports = main;

@@ -3,7 +3,7 @@ function main(numbers) {
     return undefined;
   }
 
-  return numbers.reduce((number, ac = undefined) => {
+  return numbers.reduce((ac = undefined, number) => {
     if(ac > number || typeof ac === 'undefined') {
       return number;
     }
