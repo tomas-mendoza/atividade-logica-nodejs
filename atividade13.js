@@ -1,8 +1,8 @@
-let firstNumber = 0;
-let secondNumber = 1;
-let nextNumber;
-
 function main(number) {
+  let firstNumber = 0;
+  let secondNumber = 1;
+  let nextNumber;
+
   const array = [];
 
   if (number === 1) {
